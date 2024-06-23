@@ -1,0 +1,17 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+footer{
+ background-color:#0F52BA;
+ display: flex;
+ color:#ffffff;
+ height:200px;
+ 
+ justify-content: space-evenly;
+}
+ul li {
+ padding:5px;
+}
