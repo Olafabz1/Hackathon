@@ -1,12 +1,13 @@
 import './App.css'
 import './index.css'
 import Navbar from './components/Navbar';
-import Footer from './components/footer'
+import Section from './components/section3'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AboutUs } from './pages/About';
 import { Home } from './pages/Home';
 import { Register } from './pages/Register';
 import { Services } from './pages/Services';
+import Footer from './components/footer'
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
         <Route path='/services/' element={ <Services title="Services"/> } /> 
         <Route path='/register/' element={ <Register title="Register "/> } />
       </Routes>
-      <Footer/>
+      <Section/>
+       <Footer/>
       </div>
     </BrowserRouter> 
     </>

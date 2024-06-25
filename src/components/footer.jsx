@@ -13,6 +13,7 @@ function Footer() {
        <p className="font-extrabold">LOGO</p>
        <p>"Refresh & Recharge! Take a mindful break with our app to boost productivity and well-being. 🌿
         <br/> 
+        <br/>
         <b>#TakeABreak</b>"</p>
       </div>
 
