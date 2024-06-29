@@ -17,12 +17,12 @@ function Mindfulness() {
          <div className="w-80 text-center">
             <p>Mindfulness, the practice of focusing on the present moment without judgment, is the foundation of Take A Break approach. By becoming more aware of your thoughts and feelings, you can make conscious choices about your habits.</p>
          </div>
-         <img className="ml-10 md:mt-8 mb-8 ml-24" src="./image 8.png" alt="Frame" />
+         <img className="md:mt-8 mb-8 ml-[24px]" src="./image 8.png" alt="Frame" />
         </div>
         
 
         <div className="guides mt-10 sm:w-5/6 md:w-4/6 l: mx-auto my-auto ">
-          <p className="text-center mt-60 w-5/6 ml-5 md:mt-0 w-6/12 ml:0 lg::mt-0 w-6/12 ml:0">Take A Break provides tools like guided meditations to cultivate this mindfulness, helping you integrate healthy habits into your life in a sustainable way.</p>
+          <p className="text-center mt-60 w-5/6 ml-5 md:mt-0 w-[300px] ml:0 lg::mt-0 w-6/12 ml:0">Take A Break provides tools like guided meditations to cultivate this mindfulness, helping you integrate healthy habits into your life in a sustainable way.</p>
           <br/>
 
           <div className="section block md:flex lg:flex">
