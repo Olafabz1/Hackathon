@@ -13,7 +13,10 @@ function Section() {
      <div className="cardimg">
        <p className="text-center font-semibold">Relax</p>
        <img className="pt-10" src="/img5.png" alt="Relax" />
-       <p>Unwind and calm your mind, Let go of stress and tension.</p>
+       <p>Unwind and calm your mind, Let go of stress and tension.
+        <br/>
+        <a className="font-semibold" href="#">Learn More</a>
+       </p>
       </div>
 
       <div className="cardimg">

@@ -8,6 +8,9 @@ import { Home } from './pages/Home';
 import { Register } from './pages/Register';
 import { Services } from './pages/Services';
 import Footer from './components/footer'
+import Relax from './pages/Relax';
+import Mindfulness from './pages/Mindfulness';
+import Stretch from './pages/Stretch';
 
 
 function App() {
@@ -15,7 +18,7 @@ function App() {
     <>
     <BrowserRouter>
       <div className = 'mx-[20px'>
-        <Navbar/>
+        {/* <Navbar/> */}
 
       <Routes>
         <Route index element={ <Home title="Home" />} /> 
@@ -23,8 +26,11 @@ function App() {
         <Route path='/services/' element={ <Services title="Services"/> } /> 
         <Route path='/register/' element={ <Register title="Register "/> } />
       </Routes>
-      <Section/>
-       <Footer/>
+     {/* <Section/>  */}
+      <Relax/>
+      <Mindfulness/>
+      <Stretch/>
+       {/* <Footer/> */}
       </div>
     </BrowserRouter> 
     </>
