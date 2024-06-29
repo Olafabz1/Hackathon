@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Open Sans",
+  sans-serif;
+ font-size:13px ;
+}
+
+.mindfulness{
+ width:700px;
+ height:250px;
+ margin: auto;
+
+}
+
+.mind-tab{
+ margin:10px auto;
+}
+
+.mindfulness img{
+ width:300px;
+ height:200px;
+
+}
+.mindfulness p{
+ width:300px;
+ height:200px;
+ background-color:#0F52BA ;
+ padding:15px;
+ color:#ffffff ;
+ margin:30px;
+}
+/* .guides{
+ width:1500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+} */
+
+.section{
+ gap:50px;
+}
+section p{
+ width:250px;
+ text-align:center ;
+ margin-top:5px;
+}
+section img{
+ width: 250px;
+ height: 200px;
+}
+/* .movement{
+ width:400px;
+ height:350px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin:20px 10px 10px 100px;
+} */
+.movement img{
+  width: 300px;
+  height: 200px;
+}
+/* .movement p{
+  width: 250px;
+  text-align: center;
+  margin-top: 5px;
+
+} */
+
+
