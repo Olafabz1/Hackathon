@@ -1,119 +1,87 @@
 import React from "react";
-import './Stretch.css'
-
-
-
+import './Stretch.css';
 
 function Stretch() {
   return (
-   <>
-       <div className="text-center" >
-         <h2 className="text-3xl font-extrabold md:mt-20">"Stretch"</h2>
+    <>
+      <div className="text-center mt-10">
+        <q className="text-[24px] sm:text-4xl md:text-[48px] font-extrabold font-be-vietnam-pro">Stretch</q>
       </div>
 
-      <div className="stretch block md:flex w-6/12 mx-auto lg:flex w-6/12 mx-auto">
-         <img src="./Rectangle 11.png" alt="Frame" />
-
-         <div className=" text-center">
-            <h2 className="text-xl text font-bold mt-12">You’re not alone</h2>
-              <div className="text-center ">
-                <p>Take a few minutes and, Stretch!</p>
-                <p>While it might seem harmless, prolonged sitting can lead to a host of health issues, from back pain to reduced productivity. But there’s a simple, powerful solution: stretching.
-                 Taking a few minutes to stretch can work wonders for your body and mind. It relieves muscle tension, improves circulation, and boosts your energy levels. Just a short break can enhance your focus and creativity, making you more productive when you return to work.</p>
-             </div>
-         </div>   
+      <div className="block md:flex lg:flex mx-auto p-5 md:p-20">
+        <img className="w-full md:w-[600px] h-auto md:h-[300px] mt-8" src="./Rectangle 11.png" alt="Frame" />
+        <div className="md:w-[600px] text-center mt-5 md:mt-0 md:ml-10">
+          <h2 className="text-[16px] sm:text-3xl md:text-[48px] font-be-vietnam-pro font-extrabold">You’re not alone</h2>
+          <div className="mt-5">
+            <p className="text-lg md:text-[24px] font-bold">Take a few minutes and, Stretch!</p>
+            <p className="text-sm md:text-[16px] mt-5">
+              While it might seem harmless, prolonged sitting can lead to a host of health issues, from back pain to reduced productivity. But there’s a simple, powerful solution: stretching.
+              <br />
+              <br />
+              Taking a few minutes to stretch can work wonders for your body and mind. It relieves muscle tension, improves circulation, and boosts your energy levels. Just a short break can enhance your focus and creativity, making you more productive when you return to work.
+            </p>
+          </div>
         </div>
+      </div>
 
-        <div>
-          <div className="text-center" >
-           <h2 className="text-3xl font-extrabold mt-16">WHAT DO I DO?</h2>
+      <div className="mt-10">
+        <div className="text-center">
+          <h2 className="text-[48px] sm:text-[3xl] md:text-[48px]font-be-vietnam-pro font-extrabold">WHAT DO I DO?</h2>
         </div>
-        <br/>
+        <br />
         {/* First card*/}
-          <div className="block ml-16 md:flex lg:flex ">
-            <div>
-              <h5 className="md:text-l font-bold text-center w-6/12 mb-2">Neck Stretch</h5>
-              <br/>
-              <p className="font-bold">How to Do It:</p> <p>Sit or stand with a straight back. Slowly tilt your head towards your right shoulder and hold for 15-30 seconds.<br/>
-              Repeat on the left side. </p>
-
-                <br/><br/>
-               <p className="font-bold"> Benefit:</p><p> Eases tension in the neck and shoulders.</p>
-
-               <img className="h-52 mt-8" src="./Rectangle 14.png" alt="" />
-               </div>
-          
-          {/* Second card*/}
-
-           <div>
-            <div>
-              <h5 className="mt-5 md:text-l font-bold text-center w-6/12 mb-2 lg:text-l font-bold text-center w-6/12 mb-2">Wrist and Finger Stretch</h5>
-              <br/>
-              <p className="font-bold">How to Do It:</p> 
-              <p className="w-70">Extend one arm in front of you with your palm facing up. Use your other hand to gently pull your fingers back towards your body. Hold for 15-30 seconds and repeat on the other hand.</p>
-
-                <br/><br/>
-               <p className="font-bold"> Benefit:</p><p> Relieves tension from typing and other repetitive hand movements.</p>
-
-               <img className="ml-1 mt-5 md:h-52 mt-14 ml-16" src="./Rectangle 16.png" alt="" />
-               </div>
+        <div className="block md:flex lg:flex mx-5">
+          <div className="md:w-1/2 p-5">
+            <h5 className="text-[24px] md:text-[24px] font-semibold text-center mb-2">Neck Stretch</h5>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px]">How to Do It: Sit or stand with a straight back. Slowly tilt your head towards your right shoulder and hold for 15-30 seconds. Repeat on the left side.</p>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px] mt-2">Benefit: Eases tension in the neck and shoulders.</p>
+            <img className="w-full mt-20 sm:mt-10 md:mt-20" src="./Rectangle 14.png" alt="Neck Stretch" />
           </div>
 
-          {/* Third card*/}
-
-          <div>
-            <div>
-              <h5 className="mt-5  md:text-l font-bold text-center w-10/12 mb-2">Standing Forward Bend</h5>
-              <br/>
-              <p className="font-bold">How to Do It:</p> 
-              <p>Stand with feet hip-width apart. Bend forward at the hips, letting your arms hang down towards the floor. Hold for 15-30 seconds, then slowly rise back up.</p>
-
-                <br/><br/>
-               <p className="font-bold"> Benefit:</p><p> Stretches the hamstrings, back, and shoulders.</p>
-
-               <img className="mt-5 ml-1  md: h-52 mt-20" src="./Rectangle 4.png" alt="" />
-               </div>
+          {/* Second card */}
+          <div className="md:w-1/2 p-5">
+            <h5 className="text-[24px] md:text-[24px] font-semibold text-center mb-2">Wrist and Finger Stretch</h5>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px]">How to Do It: Extend one arm in front of you with your palm facing up. Use your other hand to gently pull your fingers back towards your body. Hold for 15-30 seconds and repeat on the other hand.</p>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px] mt-2">Benefit: Relieves tension from typing and other repetitive hand movements.</p>
+            <img className="w-full mt-5" src="./Rectangle 16.png" alt="Wrist and Finger Stretch" />
           </div>
+        </div>
+
+        {/* Third card */}
+        <div className="block md:flex lg:flex mx-5 mt-10 ">
+          <div className="md:w-1/2 p-5 mx-auto">
+            <h5 className="text-[24px] md:text-[24px] font-semibold text-center mb-2">Standing Forward Bend</h5>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px]">How to Do It: Stand with feet hip-width apart. Bend forward at the hips, letting your arms hang down towards the floor. Hold for 15-30 seconds, then slowly rise back up.</p>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px] mt-2">Benefit: Stretches the hamstrings, back, and shoulders.</p>
+            <img className="w-full mt-5" src="./Rectangle 4.png" alt="Standing Forward Bend" />
+          </div>
+        </div>
+
+        <section className="block md:flex lg:flex mx-5 mt-10">
+          <div className="md:w-/2 p-5 mx-auto">
+            <h5 className="text-[24px] md:text-[24px] font-semibold text-center mb-2">Standing Side Stretch</h5>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px]">How to Do It: Stand with feet shoulder-width apart. Raise your right arm overhead and lean to the left, stretching your side. Hold for 15-30 seconds and repeat on the other side.</p>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px] mt-2">Benefit: Stretches the obliques and the sides of your torso.</p>
+            <img className="w-[364px] h-[294px] mt-5" src="./Rectangle 8.png" alt="Standing Side Stretch" />
           </div>
 
-          <section className="md:flex ml-20">
+          {/* Walking Lunges */}
+          <div className="md:w-0/2 p-5">
+            <h5 className="text-[24px] md:text-[24px] font-semibold text-center mb-2">Walking Lunges</h5>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px]">How to Do It: Take a step forward with your right leg and lower your body until your right thigh is parallel to the floor. Push off with your left foot and bring it forward to step into the next lunge. Repeat for several steps.</p>
+            <p className="font-be-vietnam-pro text-sm md:text-[16px] mt-2">Benefit: Stretches the hip flexors, glutes, and quadriceps, and promotes blood circulation.</p>
+            <img className="w-[300px] h-[256px] mt-5" src="./Rectangle 17.png" alt="Walking Lunges" />
+          </div>
 
-           <div className="w-6/12">
-              <h5 className=" md:text-l font-bold ml-16 mb-2 mt-12">Standing Side Stretch</h5>
-              <br/>
-              <p className="font-bold">How to Do It:</p> 
-              <p>Stand with feet shoulder-width apart. Raise your right arm overhead and lean to the left, stretching your side. Hold for 15-30 seconds and repeat on the other side.</p>
-
-                <br/><br/>
-               <p className="font-bold"> Benefit:</p><p> Stretches the obliques and the sides of your torso.</p>
-
-               <img className="ml-10 h-52 mt-12" src="./Rectangle 8.png" alt="" />
-               </div>
-
-               <div className="w-6/12">
-              <h5 className="w-5/6 md:text-l font-bold ml-20 mb-2 mt-10">Walking Lunges</h5>
-              <br/>
-              <p className="font-bold">How to Do It:</p> 
-              <p>Take a step forward with your right leg and lower your body until your right thigh is parallel to the floor. Push off with your left foot and bring it forward to step into the next lunge. Repeat for several steps.</p>
-
-                <br/><br/>
-               <p className="font-bold"> Benefit:</p><p> Stretches the hip flexors, glutes, and quadriceps, and promotes blood circulation.</p>
-
-               <img className=" ml-10 h-52 " src="./Rectangle 17.png" alt="" />
-               </div>
-
-               <div className="w-6/12">
-              <h5 className="w-5/6 md:text-l font-bold ml-16 mt-14 ">And many more...</h5>
-              <br/>
-               <img className="mt-2 ml-10 md:h-4/6 mt-20" src="./Rectangle 2.png" alt="" />
-               </div>
-
-          </section>
-
-       
+          {/* And many more */}
+          <div className="md:w-0/2 p-5">
+            <h5 className="text-[24px] md:text-[24px] font-semibold text-center mb-2">And many more...</h5>
+            <img className="w-[400px] h-[500px] mt-5" src="./Rectangle 2.png" alt="And many more..." />
+          </div>
+        </section>
       </div>
-     
-   </>
-  )
+    </>
+  );
 }
+
 export default Stretch;
